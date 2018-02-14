@@ -1,0 +1,152 @@
+/*
+ Theme Name:   Professional
+ Description:  Professional allows prime exposure for your club's primary sponsor, plus rounded social icons, including one for that team who is looking to grow their Instagram following. With a smart white and grey colour scheme, your club will no doubt flourish with a consistent image that aims to capture the users's attention with contrasting colours (being your primary and secondary colours, if set).
+ Author:       Morgan McLellan / Team Websites
+ Template:     theme1
+ Text Domain: Elite-professional
+ Version:      1.0.0
+*/
+
+header {background: #fff !important;}
+
+.clubsponsor-homepage div div {width: 100% !important; display: flex; align-items: center; justify-content: center;}
+
+.welcome-text div {display: flex; align-items: center;}
+.homepage-welcome .welcome-text {display: flex; align-items: center;}
+@media screen and (min-width: 951px) {.homepage-welcome {height: 278px !important; width: 39%; float: right;} }
+.homepage-welcome .welcome-text div a {display: flex; align-items: center; flex-wrap: wrap; justify-content: center;}
+
+.homepage-welcome span {    display: block;
+    text-align: center;
+    font-size: 13px;
+    height: auto;}
+
+.social_media_link {color: #fff !important; text-align: center; display: inline-block; border-radius: 50%; width: 26px !important; height: 26px !important;}
+
+.social_media_link .fa {margin: 0px; display: inline-block;}
+
+header #twitter-social {background: #55ACEE !important;}
+    
+.homepage-welcome img:hover, .homepage-welcome img:focus {opacity: 1;}
+
+header #facebook-social {background: #385287 !important;}
+
+header #instagram-social {background: #cd486b !important;}
+
+.homepage-welcome img {  opacity: 0.9;  margin-bottom: 7px; max-width: 90%; max-height: 90%; display: flex; justify-content: center; margin-left: auto; margin-right: auto; align-items: center;}
+
+header .header-sponsor {padding: 7px !important;} header .header-sponsor .defospons img {height: 100%; padding: 0px !important;} header .defospons {margin: 0px !important; background: transparent !important; padding: 0px !important;}
+
+.homepage-welcome .welcome-text, .homepage-welcome div {height: 100%;     margin-left: auto; margin-right: auto;}
+
+#featurednewsslider {width: 100%; height: 285px; position: relative; padding-bottom: 20px; color: #fff !important; padding-top: 31.5px; background-size: cover; width: calc(100% - 40px) !important; padding-right: 20px; padding-left: 20px;}
+
+#featured ul.ui-tabs-nav li {height: 100% !important; width: 25% !important; float: left !important;} 
+
+#featured ul.ui-tabs-nav {position: absolute !important;
+    clear: both !important;
+    width: 100% !important;
+    top: auto !important;
+    bottom: 0px !important;
+    right: 0px !important;
+    left: 0px !important;
+    z-index: 11111;
+    height: 7px !important;}
+    
+    .wpclubmanager .wpcm-match-details h3 {font-weight: 500 !important;}
+    
+    .wpclubmanager .wpcm-match-away-club, .wpclubmanager .wpcm-match-home-club, .wpclubmanager main h2, .wpclubmanager .sidebar h2 {font-weight: 400 !important;}
+    
+    #featured li.ui-tabs-selected a:before, #featured ul.ui-tabs-nav li:hover a:before, #featured ul.ui-tabs-nav li.ui-tabs-selected a:before {background: rgba(0, 0, 0, 0.3) !important;}
+
+header .col-lg-8 {margin-bottom: 7px !important;}
+
+header {background: #fff !important; color: #000 !important;} header a {color: #000 !important;}
+
+#featured ul.ui-tabs-nav li span {display: none !important;}
+
+#featured .ui-tabs-panel {width: 100% !important;}
+
+#featured {position: relative;}
+
+#left-header-float {float: left;}
+
+header #logo  {margin-bottom:13px;}
+
+.mobilemenu-1 .primary-menu:before {background: rgba(0, 0, 0, 0.1) !important;}
+
+.open-menu-link15:before {background: rgba(0, 0, 0, 0.26) !important;}
+
+.desktopav a {color: #000 !important;} .w3-show {background: #eee !important;} .desktopav {background: lightgrey !important;}
+
+.desktopav ul, .desktopav li {list-style: none !important;}
+
+.desktopav li {display: inline-block;
+    float: left;
+    margin-right: 10px;}
+    
+.desktopav {    display: block;
+    clear: both;
+    margin-top: 0px !important;}
+    
+    #desktop-menu {margin-top: 0px !important;}
+    
+    .desktopav .sub-menu {margin-left: 0px !important;}
+
+.desktopav ul, nav .container .nav {margin-left: -95px !important;}
+
+.title-post {background: #bcbcbc !important;}
+
+header.sticky nav {display: none !important} header.sticky #logo {margin-bottom: 0px;} header.sticky .col-lg-8 h1 {font-size: 17px !important; display: block !important;}
+
+@media screen and (min-width: 951px) { #primarysponsor-ad {display: none !important;} .homepage-welcome {height: 298px !important;} }
+
+@media screen and (max-width: 950px) { header .header-sponsor {display: none !important;} header .header-sponsor {display: none !important;} }
+
+#featured, #featured .ui-tabs-panel {height: 315px !important;}
+
+header .col-lg-8 {width: 100% !important;}
+
+.top-header .container .content {width: auto; clear: both;}
+
+#ifnoheadersponsor {margin-bottom: 5px; background: grey; color:#eee;float:left;padding-right:14px; height: 50px; padding-left:14px; margin-right: 9px; text-align: center !important;} #ifnoheadersponsor span {display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; align-items: center; justify-content: center; line-height: 250% !important; height: 100%;} .header-sponsor {background: grey; float:left;height:55px;color:#000;width:auto;box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);margin-right:14px !important;}
+
+header .container {margin-top: 0px !important;}
+ header.sticky .header-social-right {display: none !important;}
+
+header.sticky nav {padding-top: 1px !important; margin-top: 0px !important; clear: none !important;}
+    
+header.sticky #desktop-menu {margin-top: -37px !important;}
+
+header.sticky .col-lg-8 #logo {height: 35px !important;}
+
+header .content.row:after {content: ""; clear: both; display: block;}
+
+header:after {background: rgba(225, 225, 225, 0.68); height: 3.12px !important;}
+
+.header-social-right button {border: none !important;}
+
+.header-social-right a {text-decoration: none !important;}
+
+#Demo1 {margin-top: 34px;}
+
+.dropdown3 button {width: auto !important; float: right; padding-left: 19px !important; padding-right: 19px !important; border-top-left-radius: 17px !important; border-top-right-radius: 17px !important; border-bottom-left-radius: 17px !important; border-bottom-right-radius: 17px !important; clear: both;}
+
+header.sticky nav {background-color: transparent !important;}
+
+.top-header .container .content {padding-top: 2px !important;}
+
+
+#desktop-menu {margin-top: -7px !important; padding-left: 7px;}
+
+nav {background: transparent !important;}
+
+#featurednewsslider a{text-decoration: none;}
+
+.news-slider #featured a {color: #fff;}
+
+.text-ex {color: lightgrey !important;} .readmore-sec i {font-size: 13.5px !important; margin-left: 3.9px;} .readmore-sec {line-height: 0px !important; font-size: 12.5px !important; font-weight: bold;} .readmore-sec a {color: #fff !important; margin: 0px !important;}
+
+.text-ex p {margin-left: 6px !important;}
+
+.primary-color-banner {left: 0px; right: 0px; bottom: 0px; top: 0px; position: absolute; z-index: 0; background: rgba(12, 10, 10, 0.76);} .first-news-article-content {color: lightgrey !important; font-size: 12.5px !important;} .first-news-article-title span {margin-top: 7px; margin-left: 7px; display: block; width: 100% !important; clear: both; font-size: 23px;} .first-news-article-date {color: lightgrey !important; font-size: 13px !important;} .first-news-article-title {z-index: 1111; position: relative;} #featured {width:65%;overflow:hidden;} .first-news-article-date {margin-top: 8.5px;} .first-news-article-date i {font-size: 13.5px !important; margin-right: 3.9px;}
